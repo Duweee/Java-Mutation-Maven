@@ -1,0 +1,3 @@
+# Java-Mutation-Maven
+
+Mutation testing involves creating artificial faults into your unit tests with the goal of causing different results. Should the test pass despite differing results, then that is a good indicator that the unit test is not effectively testing your source code. Several different mutation testing frameworks exist for Java, but it is important to look at each framework to identify its pros and cons. The team will examine several different java mutation testing frameworks and decide which is the most practical to implement in a business environment. Once a framework has been chosen, the team will then attempt to integrate it into a CI/CD pipeline to demonstrate how mutation testing can deliver more reliable tests.
