@@ -1,4 +1,4 @@
-//import static org.junit.Assert.*;
+package manual.mutation.run;//import static org.junit.Assert.*;
 //import org.junit.Test;
 //import org.junit.jupiter.api.Test;
 
@@ -6,6 +6,7 @@
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 
@@ -16,10 +17,10 @@ public class test {
         User bill   = new User("Bill Murray",9128);
         User keanu  = new User("Keanu Reeves",2407);
 
-        assertEquals(9128, bill.getPIN());
-        assertEquals(2407,keanu.getPIN());  //tests functionality
-        assertEquals("Bill Murray", bill.getID());
-        assertEquals("Keanu Reeves", keanu.getID());
+        Assert.assertEquals(9128, bill.getPIN());
+        Assert.assertEquals(2407,keanu.getPIN());  //tests functionality
+        Assert.assertEquals("Bill Murray", bill.getID());
+        Assert.assertEquals("Keanu Reeves", keanu.getID());
 
         Account ac1 = new Account(90.87,"0001");
 		Account ac2 = new Account(34.22,"0002");
@@ -41,7 +42,7 @@ public class test {
 		
 		ourATM.add(keanu);
 		ourATM.add(bill);
-        assertEquals(1175.50, bill.sumAll(), 1175.50); //double check to make sure delta is correct (3rd value)
-        assertEquals(317.33, keanu.sumAll(), 317.33);
+        Assert.assertEquals(1175.50, bill.sumAll(), 1175.50); //double check to make sure delta is correct (3rd value)
+        Assert.assertEquals(317.33, keanu.sumAll(), 317.33);
     }
 }

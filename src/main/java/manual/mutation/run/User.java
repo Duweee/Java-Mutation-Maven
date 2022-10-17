@@ -1,4 +1,4 @@
-//package SEATM;
+package manual.mutation.run;//package SEATM;
 import java.util.*;
 
 /**
@@ -72,7 +72,7 @@ public class User {
 	 * 
 	 * @param pin the passcode to access the user's accounts
 	 * @param ID specific title for each account the user has
-	 * @return the Account requested if it exists and the pin is correct, else it returns null
+	 * @return the manual.mutation.run.Account requested if it exists and the pin is correct, else it returns null
 	 */
 	public Account requestAccount(int pin, String ID) {
 		if (pin != PIN) {

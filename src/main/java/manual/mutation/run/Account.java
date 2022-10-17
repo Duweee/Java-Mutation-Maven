@@ -1,4 +1,4 @@
-//package SEATM;
+package manual.mutation.run;//package SEATM;
 import java.util.*;
 
 public class Account {

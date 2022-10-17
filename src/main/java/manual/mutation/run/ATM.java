@@ -1,4 +1,4 @@
-//package SEATM;
+package manual.mutation.run;//package SEATM;
 import java.util.*;
 
 public class ATM {
@@ -42,7 +42,7 @@ public class ATM {
     /**
      * 
      * @param request a String object
-     * @return will return the User that matches its ID to the request string WILL RETURN NULL IF NOT FOUND
+     * @return will return the manual.mutation.run.User that matches its ID to the request string WILL RETURN NULL IF NOT FOUND
      */
     public User requestUser(String request) {
     	for (int i = 0 ; i < myUsers.size() ; i++) {

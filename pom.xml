@@ -15,12 +15,12 @@
     </properties>
 
     <dependencies>
-        <!-- junit 5, unit test -->
+        <!-- junit 5, unit manual.mutation.run.test -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.3.1</version>
-            <scope>test</scope>
+            <scope>manual.mutation.run.test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -37,7 +37,7 @@
     </dependencies>
 
     <build>
-        <finalName>maven-unit-test</finalName>
+        <finalName>maven-unit-manual.mutation.run.test</finalName>
         <plugins>
 
             <plugin>

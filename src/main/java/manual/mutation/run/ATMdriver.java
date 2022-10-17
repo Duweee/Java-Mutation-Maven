@@ -1,4 +1,4 @@
-//package SEATM;
+package manual.mutation.run;//package SEATM;
 import java.util.*;
 
 public class ATMdriver {
@@ -58,7 +58,7 @@ public class ATMdriver {
 	}
 	
 	public static void printAll() {
-		System.out.println("ATM balance: " + ourATM.getATMBalance());
+		System.out.println("manual.mutation.run.ATM balance: " + ourATM.getATMBalance());
 		System.out.println("CURRENT USERS");
 		System.out.println("----------------------------------------");
 		for (int i = 0 ; i < ourATM.getMyUsers().size(); i++) {
