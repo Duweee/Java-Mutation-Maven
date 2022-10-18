@@ -12,7 +12,12 @@ public class ATMdriver {
 		
 		populate();
 		
-		System.out.println("Enter an int to choose a test\n 0: print all \n 1: apply Interest \n 2: withdraw 20 from all account \n 3: wiithdraw 20 with fee\n");
+		System.out.println("Enter an int to choose a test\n " +
+				"0: print all \n " +
+				"1: apply Interest \n " +
+				"2: withdraw 20 from all account \n " +
+				"3: withdraw 20 with fee\n " +
+				"4: exit ATM");
 		
 		while (running) {
 			int valIn = in.nextInt();
@@ -25,6 +30,8 @@ public class ATMdriver {
 						  break;
 				case 3  : withdrawFeeAll(20.00,5);
 						  break;
+				case 4  : running = false;
+				          break;
 				default : System.out.println("Enter a valid int");
 						  break;
 			}
